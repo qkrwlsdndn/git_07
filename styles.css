@@ -55,5 +55,11 @@ html, body {
 }
 
 .zero {
-    flex-grow: 2;
+    grid-column:span 2;
+}
+.AC {
+    grid-column: span 2;
+}
+.sign {
+    background-color: rgb(red, green, blue);
 }
