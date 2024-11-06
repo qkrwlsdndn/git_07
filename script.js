@@ -16,6 +16,6 @@ function calculateResult() {
     try {
         display.innerText = eval(display.innerText);
     } catch {
-        display.innerText = 'Error';
+        display.innerText = "숫자와 사칙연산 기호만 입력해주세요";
     }
 }
